@@ -14,7 +14,8 @@ public final class AbbreviateTwoWords {
     public static String abbrevName(final String name) {
         final String[] names = name.toUpperCase().split(" ");
         if (names.length < 2) {
-            throw new IllegalArgumentException("The name must consist of at least two words.");
+            throw new IllegalArgumentException(
+                "The name must consist of at least two words.");
         }
         return names[0].charAt(0) + "." + names[1].charAt(0);
     }
