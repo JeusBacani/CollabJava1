@@ -12,6 +12,7 @@ public class NameGenerator {
 	private static String[] End = { "d", "ed", "ark", "arc", "es", "er", "der",
 			"tron", "med", "ure", "zur", "cred", "mur" };
 	
+            
 	private static Random rand = new Random();
 
 	public static String generateName() {
